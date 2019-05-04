@@ -1,0 +1,144 @@
+/* line 1, ../sass/contact.scss */
+.contactCont {
+  margin-left: 10px;
+  color: #8a8e96;
+}
+
+/* line 6, ../sass/contact.scss */
+.contactForm {
+  width: calc(100% - 20px);
+  margin: 10px;
+}
+
+/* line 11, ../sass/contact.scss */
+.topLabVal {
+  width: 100%;
+  float: left;
+}
+/* line 16, ../sass/contact.scss */
+.topLabVal .labValPair {
+  width: calc(50% - 10px);
+  margin: 5px;
+  float: left;
+}
+
+/* line 23, ../sass/contact.scss */
+.input, .inputMsg {
+  width: calc(100% - 10px);
+  margin: 5px;
+}
+
+/* line 28, ../sass/contact.scss */
+.submitButton {
+  height: 40px;
+  width: 150px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #10d1ea;
+  color: white;
+}
+
+/* line 39, ../sass/contact.scss */
+.contactInfoLeft, .contactInfoRight {
+  width: calc(50% - 50px);
+  margin: 25px;
+  float: left;
+}
+
+/* line 47, ../sass/contact.scss */
+.contactInfoRight li, .contactInfoRight ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 53, ../sass/contact.scss */
+.formHeader, .contactInfoHeader, .submitButton {
+  font-weight: 700;
+}
+
+/* line 57, ../sass/contact.scss */
+.formHeaderSubTxt {
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* line 63, ../sass/contact.scss */
+a {
+  color: #10d1ea;
+}
+
+/* line 67, ../sass/contact.scss */
+.addressText {
+  margin-left: 45px;
+}
+
+/* line 71, ../sass/contact.scss */
+.subContact {
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+/* line 76, ../sass/contact.scss */
+.contactInfoCont {
+  margin-top: 25px;
+}
+
+/* line 80, ../sass/contact.scss */
+.contactForm {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+/* line 85, ../sass/contact.scss */
+.iconHeadCont {
+  height: 30px;
+  width: 100%;
+}
+
+/* line 90, ../sass/contact.scss */
+.imgIconSprite {
+  width: 30px;
+  height: 30px;
+  background: url(../img/iconsprite_30.jpg);
+  background-size: 99px 66px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+/* line 100, ../sass/contact.scss */
+.addressSubHead {
+  line-height: 30px;
+}
+
+/* line 104, ../sass/contact.scss */
+.addIcon {
+  background-position: -3px -2px;
+}
+
+/* line 108, ../sass/contact.scss */
+.mailIcon {
+  background-position: -2px -34px;
+}
+
+/* line 112, ../sass/contact.scss */
+.phoneIcon {
+  background-position: -66px -2px;
+}
+
+/* line 116, ../sass/contact.scss */
+.linkedinIcon {
+  background-position: -34px -2px;
+}
+
+@media only screen and (max-width: 500px) {
+  /* line 121, ../sass/contact.scss */
+  .contactInfoLeft, .contactInfoRight {
+    width: calc(100% - 50px);
+    margin: 0px;
+    margin-left: 25px;
+  }
+}

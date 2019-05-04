@@ -1,0 +1,14 @@
+var designItems = { classToAppend : "designItems",
+               images        :  [
+            {dispName:"", img:"",desc:""},//leave extra empty elem
+            {dispName:"d1", img:"0_full_thumb.JPG",desc:"Camera icon"},
+            {dispName:"d3", img:"2_full_thumb.JPG",desc:"Prestige Sailing School Logo"},
+            {dispName:"d4", img:"3_full_thumb.JPG",desc:"Trip to MOON logo"},
+            {dispName:"d5", img:"4_1_full_thumb.JPG",desc:"Zim's Icecream Parlour Logo"},
+            {dispName:"d6", img:"4_2_full_thumb.JPG",desc:"Zim's Icecream Parlour Logo #2"},
+            {dispName:"d7", img:"5_full_thumb.JPG",desc:"The Laser Saloon Logo"},
+            {dispName:"d8", img:"6_full_thumb.JPG",desc:"The Silent Velcro Logo"},
+            {dispName:"d9", img:"8_full_thumb.JPG",desc:"Ken's Candy shop Logo"},
+            {dispName:"d10", img:"monk_thumb.JPG",desc:"Monk"},
+            {dispName:"d11", img:"kattradhutamil_thumb.JPG",desc:"Dream"},
+            ]};

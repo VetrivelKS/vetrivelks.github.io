@@ -1,0 +1,128 @@
+.contactCont
+{
+    margin-left: 10px;
+    color: #8a8e96;
+}
+.contactForm
+{
+    width: calc(100% - 20px);
+    margin: 10px;
+}
+.topLabVal
+{
+    width: 100%;
+    float: left;
+
+    .labValPair
+    {
+        width: calc(50% - 10px);
+        margin: 5px;
+        float: left;
+    }
+}
+.input,.inputMsg
+{
+    width: calc(100% - 10px);
+    margin: 5px;
+}
+.submitButton
+{
+    height: 40px;
+    width: 150px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #10d1ea;
+    color: white;
+}
+.contactInfoLeft,.contactInfoRight
+{
+    width: calc(50% - 50px);
+    margin: 25px;
+    float: left;
+}
+.contactInfoRight
+{
+    li,ul
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+.formHeader,.contactInfoHeader,.submitButton
+{
+    font-weight: 700;
+}
+.formHeaderSubTxt
+{
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+}
+a
+{
+    color: #10d1ea;
+}
+.addressText
+{
+    margin-left: 45px;
+}
+.subContact
+{
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.contactInfoCont
+{
+    margin-top: 25px;
+}
+.contactForm
+{
+    pointer-events: none;
+    opacity: 0.3;
+}
+.iconHeadCont
+{
+    height: 30px;
+    width: 100%;
+}
+.imgIconSprite
+{
+    width: 30px;
+    height: 30px;
+    background: url(../img/iconsprite_30.jpg);
+    background-size: 99px 66px;
+    float: left;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.addressSubHead
+{
+    line-height: 30px;
+}
+.addIcon
+{
+    background-position: -3px -2px;
+}
+.mailIcon
+{
+    background-position: -2px -34px;
+}
+.phoneIcon
+{
+    background-position: -66px -2px;
+}
+.linkedinIcon
+{
+    background-position: -34px -2px;
+}
+@media only screen and (max-width: 500px){
+    .contactInfoLeft,.contactInfoRight
+    {
+        width: calc(100% - 50px);
+        margin: 0px;
+        margin-left: 25px;
+    }
+    
+}

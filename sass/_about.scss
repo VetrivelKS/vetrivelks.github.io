@@ -1,0 +1,151 @@
+.aboutTopCont,.aboutDetails,.aboutSkills
+{
+    width: 100%;
+    float: left;
+}
+.aboutSkills
+{
+    margin-left: 10px;
+}
+.aboutTopRight,.aboutTopLeft
+{
+    float:right;
+}
+.aboutTopLeft
+{
+    margin-top: 50px;
+}
+.aboutImgCont
+{
+    margin: 10px;
+}
+.abtImg
+{
+    width: 226px;
+    height: 287px;
+}
+
+.aboutTextCont
+{
+    text-align: right;
+    color: #8a8e96;
+}
+.aboutName
+{
+    font-weight: 600;
+    font-size: 30px;
+    color: #10d1ea;
+}
+.aboutDesc
+{
+    font-weight: 300;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.descHighlight
+{
+    color: #10d1ea;
+}
+
+.downloadResumeBtn
+{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    width: 200px;
+    height: 25px;
+    color: white;
+    background-color: #10d1ea;
+    float: right;
+    margin: 15px;
+    line-height: 26px;
+    cursor: pointer;
+}
+ul
+{
+    list-style: none;
+}
+.detailSub
+{
+    width: calc(50% - 20px);
+    margin: 0px 10px;
+    float: left;
+}
+.detailHeader
+{
+    font-weight: 800;
+    font-size: 18px;
+    color: #8a8e96;
+}
+.detailList,.aboutSub
+{
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    color: #8a8e96;
+}
+
+.aboutSub
+{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.desAboutSub,.devAboutSub
+{
+    border-right: 1px solid #10d1ea;
+}
+
+.aboutSub1
+{
+    font-weight: 600;
+}
+
+.abtIcn
+{
+    max-height: 75px;
+    width: auto;
+    margin: 10px;
+}
+.devAboutSub
+{
+    .abtIcn
+    {
+        margin: 10px 0px 0px 10px;
+    }
+}
+/*.detailBullet
+{
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #10d1ea;
+    float: left;
+    margin-right: 10px;
+}*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
+    .aboutTopLeft
+    {
+        margin: 10px;
+    }
+    .aboutName
+    {
+        font-size: 16px;
+    }
+    .detailHeader
+    {
+        font-size: 14px;
+    }
+    .aboutDesc,.downloadResumeBtn,.detailList,.aboutSub
+    {
+        font-size: 12px;
+    }
+    .downloadResumeBtn
+    {
+        width: 135px;
+        margin: 10px;
+    }
+}
